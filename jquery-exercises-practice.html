@@ -1,0 +1,205 @@
+<!-- Exercise One - SELECTOR - Add the correct selector to hide all the paragraph elements -->
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  body {
+    margin:200px;
+  }
+    h2{ 
+      font-family:sans-serif;
+      color:tomato; 
+    }
+    hr
+    {margin:80px 0;}
+  </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector" ).hide();
+});
+</script>
+</head>
+<body>
+  <h1> Exercises</h1>
+<hr/>
+<h2>Exercise One - SELECTOR - Add the correct selector to hide all the paragraph elements</h2>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<hr/>
+</body>
+</html>
+
+<!-- Exercise 2 - SELECTOR - Add the correct selector to hide the second paragraph. Try to rewrite the function in shorthand-->
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("   ").hide();
+});
+</script>
+</head>
+<body>
+<h2>Exercise 2 - SELECTOR - Add the correct selector to hide the second paragraph. Try to rewrite the function in shorthand</h2>
+<p>This is a paragraph.</p>
+<p id="test">This is a paragraph with id="test".</p>
+<hr/>
+</body>
+</html>
+
+<!-- Exercise Three - SELECTOR - Add the correct selector and the correct method to hide all elements with the class of test-->
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("?").?();
+});
+</script>
+</head>
+<body>
+<h2>Exercise Three - SELECTOR - Add the correct selector and the correct method to hide all elements with the class of test</h2>
+<h3 class="test">This is a heading</h3>
+<p class="test">This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<hr/>
+</body>
+</html>
+
+<!-- Exercise Four - SELECTOR - Use the correct selector to hide all the elements with the atttribute of href ( a little trickier- you might want to review attribute selectors) -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector").hide();
+});
+</script>
+</head>
+<body>
+<h2>Exercise Four - SELECTOR - Use the correct selector to hide all the elements with the atttribute of href ( a little trickier- you might want to review attribute selectors)</h2>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<a href="https://www.google.com/html/">Google</a><br/>
+<a href="https://stackoverflow.com/">Stack Overflow</a>
+<hr/>
+</body>
+</html>
+
+
+<!-- Exercise Five - SELECTOR & EVENT -Use the correct selector and the correct even to hide all paragraphs -->
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector").event(function(){
+        $(this).hide(); // see what happens if this line is taken out
+    });
+});
+</script>
+</head>
+<body>
+<h2>Exercise Five - SELECTOR &amp; EVENT -Use the correct selector and the correct even to hide all paragraphs</h2>
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+<hr/>
+</body>
+</html>
+
+
+<!-- Exercise Six - SELECTOR & EVENT - Add the correct selector and event when your mouse goes over the text -->
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector").event(function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+<h2>Exercise Six - SELECTOR &amp; EVENT - Add the correct selector and event when your mouse goes over the text </h2>
+<span>If you mouse over me, I will disappear.</span><br>
+<span>If you mouse over me, I will disappear.</span>
+<hr/>
+</body>
+</html>
+
+<!-- Exercise Seven - SELECTOR &amp; EVENT - Use the on() method to attach a click event handler to all paragraph elements -->
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector").method("event", function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+<h2>Exercise Seven - SELECTOR &amp; EVENT - Use the on() method to attach a click event handler to all paragraph elements</h2>
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+<hr/>
+</body>
+</html>
+
+<!-- Exercise Eight - Use a jQuery method to hide the <p> element when it is clicked on. The speed should be "slow". -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).method();
+    });
+});
+</script>
+</head>
+<body>
+<h2>Exercise Eight - Use a jQuery method to hide the paragraph element when it is clicked on. The speed should be "slow".</h2>
+<p>If you click on me, I will disappear.</p>
+<hr/>
+</body>
+</html>
+
+<!-- Exercise Nine - Toggle between hiding and showing the <p> element when you click on the "Toggle" button. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").method();
+    });
+});
+</script>
+</head>
+<body>
+<h2>Exercise Nine - Toggle between hiding and showing the paragraph element when you click on the "Toggle" button.</h2>
+<button>Toggle</button>
+
+<p>This is a paragraph.</p>
+<hr/>
+</body>
+</html>
+
+https://www.w3schools.com/jquery/jquery_hide_show.asp
+LIST OF jQuery methods can be called: val, css, html, text, data, width, height, or offset.
